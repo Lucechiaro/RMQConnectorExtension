@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c67e0bd-25df-4cde-9691-2e0909347a64">
+  <producedTypes>
+    <objectType typeId="aa8ab9c3-6839-4584-a6c0-5f214a74869a" valueTypeId="2a15a8ae-3cba-4f56-92ec-164ac20221e0"/>
+    <managerType typeId="6a09a4d7-c8ba-4a16-bbe6-0e0b26ebafff" valueTypeId="0ade290e-2e19-4f8f-bc87-e6b0c79af2f8"/>
+  </producedTypes>
+  <name>рмкКоннектор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коннектор RMQ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Рмк коннектор</value>
+  </synonym>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Коннектор RMQ</value>
+  </extendedPresentation>
+</mdclass:DataProcessor>

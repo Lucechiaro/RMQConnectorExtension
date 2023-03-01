@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="870d0d1e-45d0-49e4-aaae-fdcfa4e031bc" extendedConfigurationObject="124467b5-47a2-4b00-bc5a-f814f9565cbe">
+  <producedTypes>
+    <selectionType typeId="abb8c62a-70e0-402f-aed8-83e15fff99cd" valueTypeId="0c4c662a-182c-4bd0-a45d-8435a767b8d5"/>
+    <listType typeId="9ae4d670-bdd1-4673-b571-8bf978570f14" valueTypeId="7d7d4577-5f39-451b-ba8d-8141cdd307e2"/>
+    <managerType typeId="9d5f8c68-4fdb-49b8-bd69-21d8c90c15fc" valueTypeId="2209cf83-0d4d-4383-ba22-e2fd0571b428"/>
+    <recordSetType typeId="a4cfff85-d476-4516-a012-885fbadf03a2" valueTypeId="ed0e9a21-394d-4895-b0c3-31fc489f4c9b"/>
+    <recordKeyType typeId="aba57305-053f-44e2-9325-1838482c954b" valueTypeId="1427edf6-21e1-4dbd-bd7d-751636b43f11"/>
+    <recordType typeId="b8f44891-7234-4c5c-96da-cacb84a72c18" valueTypeId="0309b82d-86e4-4a6b-be5d-749527821808"/>
+    <recordManagerType typeId="c5246477-cede-4631-a9ec-0c4f9b4dc6e5" valueTypeId="45b2780c-2b08-4160-b79e-638b77309e4c"/>
+  </producedTypes>
+  <name>рмкДокументыКОтложенномуПроведению</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <resources uuid="a4ef6af8-30d7-407a-be24-669d0e9559e7" extendedConfigurationObject="07065c42-b3ef-45c7-941d-44e94e8b704a">
+    <name>Дата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+  </resources>
+  <attributes uuid="3a27c072-7349-4d49-ab51-2df46983a1ac" extendedConfigurationObject="4aaf1b7d-31cd-4763-93ba-228e4beb6086">
+    <name>ОписаниеОшибки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <dimensions uuid="33258c40-7c77-43a9-9bc6-79a8ea5fa9b8" extendedConfigurationObject="080fc76c-746b-4d1b-ab3f-e54459931528">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>
