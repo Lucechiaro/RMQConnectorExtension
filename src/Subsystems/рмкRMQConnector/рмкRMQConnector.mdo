@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="71ee93d9-af67-4998-90d3-71230586687a" extendedConfigurationObject="166f52b0-5b98-498d-ab3e-b82110c161ca">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="71ee93d9-af67-4998-90d3-71230586687a" extendedConfigurationObject="166f52b0-5b98-498d-ab3e-b82110c161ca">
   <name>рмкRMQConnector</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:SubsystemExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <commandInterface>Extended</commandInterface>
+    <picture>Extended</picture>
   </extension>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.рмкЭмблема</picture>
+  </picture>
   <content>CommonModule.рмкОбщегоНазначенияКлиентПереопределяемый</content>
   <content>CommonModule.рмкОбщегоНазначенияПереопределяемый</content>
   <content>CommonModule.рмкОбщегоНазначенияПовтИсп</content>
