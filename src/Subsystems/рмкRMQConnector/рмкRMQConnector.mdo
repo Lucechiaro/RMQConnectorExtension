@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3bfffab4-4d6f-4cf4-a279-27f73b70b77c" extendedConfigurationObject="166f52b0-5b98-498d-ab3e-b82110c161ca">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="71ee93d9-af67-4998-90d3-71230586687a" extendedConfigurationObject="166f52b0-5b98-498d-ab3e-b82110c161ca">
   <name>рмкRMQConnector</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:SubsystemExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    <picture>Extended</picture>
+    <commandInterface>Extended</commandInterface>
   </extension>
-  <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.рмкЭмблема</picture>
-  </picture>
-  <content>f7e4a1f0-4352-4140-bb12-273b60d1e0fe</content>
+  <content>CommonModule.рмкОбщегоНазначенияКлиентПереопределяемый</content>
   <content>CommonModule.рмкОбщегоНазначенияПереопределяемый</content>
   <content>CommonModule.рмкОбщегоНазначенияПовтИсп</content>
-  <content>1f23ad1b-e9d6-4337-8078-6b4897fe28e6</content>
+  <content>CommonModule.рмкОбработкаСообщений</content>
+  <content>CommonModule.рмкОбщегоНазначения</content>
+  <content>Role.рмкНастройкаКоннектораRMQ</content>
   <content>EventSubscription.рмкПриЗаписиОбъектаРепликации</content>
   <content>EventSubscription.рмкПриЗаписиРегистраРепликации</content>
-  <content>87cf69dc-558b-4604-8179-e20ea3f1a0ef</content>
+  <content>CommonForm.рмкОбщиеНастройки</content>
   <content>CommonCommand.рмкОткрытьФормуОбщихНастроек</content>
+  <content>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x64</content>
   <content>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x32</content>
-  <content>f97df5d7-d75f-4308-b29e-84819dc5b839</content>
   <content>CommonPicture.рмкЭмблема</content>
   <content>Constant.рмкВерсияКомпоненты</content>
+  <content>Constant.рмкДнейХраненияСообщений</content>
+  <content>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</content>
   <content>Constant.рмкРазрешенаРаботаВКопииБазы</content>
   <content>Constant.рмкХранилищеПодключаемогоМенеджераКонвертации</content>
-  <content>Constant.рмкИнформацияОПодключаемомМенеджереКонвертации</content>
-  <content>Constant.рмкДнейХраненияСообщений</content>
   <content>Catalog.рмкВиртуальныеХосты</content>
   <content>Catalog.рмкВходящиеСообщения</content>
   <content>Catalog.рмкИсходящиеСообщения</content>
@@ -34,17 +33,10 @@
   <content>Enum.рмкМенеджерыКонвертации</content>
   <content>Enum.рмкСтатусыСообщений</content>
   <content>Enum.рмкТипыПередаваемойИнформации</content>
-  <content>DataProcessor.рмкМенеджерКонвертацииXDTO</content>
-  <content>DataProcessor.рмкМенеджерКонвертации</content>
+  <content>DataProcessor.рмкКоннектор</content>
   <content>DataProcessor.рмкКонсольОтладки</content>
-  <content>075393d9-c03b-4660-b54e-93ae560badbc</content>
+  <content>DataProcessor.рмкМенеджерКонвертации</content>
+  <content>DataProcessor.рмкМенеджерКонвертацииXDTO</content>
   <content>InformationRegister.рмкСтатусыСообщений</content>
   <content>InformationRegister.рмкДокументыКОтложенномуПроведению</content>
-  <content>CommonModule.рмкОбщегоНазначенияКлиентПереопределяемый</content>
-  <content>CommonModule.рмкОбработкаСообщений</content>
-  <content>CommonModule.рмкОбщегоНазначения</content>
-  <content>Role.рмкНастройкаКоннектораRMQ</content>
-  <content>CommonForm.рмкОбщиеНастройки</content>
-  <content>CommonTemplate.PinkRabbitMQ3_v2_1_1_149_x64</content>
-  <content>DataProcessor.рмкКоннектор</content>
 </mdclass:Subsystem>

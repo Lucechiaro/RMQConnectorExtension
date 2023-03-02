@@ -40,7 +40,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <modalityUseMode>DontUse</modalityUseMode>
   <compatibilityMode>8.3.18</compatibilityMode>
-  <languages uuid="d54ae065-a996-4967-96d0-3168924098b6" extendedConfigurationObject="c097f930-73d3-46dc-91e9-d2cfdd9673c4">
+  <languages uuid="d54ae065-a996-4967-96d0-3168924098b6" extendedConfigurationObject="99be90b2-fd14-462a-8107-4c5b6b957db8">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
