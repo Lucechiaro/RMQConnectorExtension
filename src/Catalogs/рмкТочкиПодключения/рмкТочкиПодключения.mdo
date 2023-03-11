@@ -255,6 +255,102 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d07c79bd-4666-4089-95c1-e7f38f25ddc5">
+    <name>ИспользоватьДляМножестваПолучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать для множества получателей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce764c01-d2d8-4710-b74f-0df97241b289">
+    <name>ТипИсточникаСпискаПолучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип источника списка получателей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e266a599-ec9a-4927-94a7-272762e388a9">
+    <name>ИмяПланаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя плана обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="88ea050b-b99c-46f9-9644-fa1646984e2f">
+    <name>УИДУзлаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИД узла обмена</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b93f8db6-9641-40cc-be06-e3b5555c8ccf">
+    <name>ОдноСообщениеДляМножестваПолучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одно сообщение для множества получателей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad1f809c-786d-475e-b3d2-d7c22e89e2fe">
+    <name>ПроверятьПоПравиламРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять по правилам регистрации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="6e98d72a-1982-40b1-997c-1409651ad567">
     <producedTypes>
       <objectType typeId="ad2fa303-19e7-4710-b2a7-f066765becfb" valueTypeId="de1623a8-4134-41dc-9a3b-19a67ee1f079"/>

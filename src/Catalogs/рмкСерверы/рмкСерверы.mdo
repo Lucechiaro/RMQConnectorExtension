@@ -119,6 +119,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.рмкСерверы.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.рмкСерверы.Form.ListForm</defaultListForm>
   <attributes uuid="5e33c82e-0bbc-496f-82dc-6480d903fd88">
     <name>Адрес</name>
     <synonym>
@@ -211,6 +212,15 @@
     <synonym>
       <key>ru</key>
       <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ca2d3928-ee50-4962-ae47-76b612c81583">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
