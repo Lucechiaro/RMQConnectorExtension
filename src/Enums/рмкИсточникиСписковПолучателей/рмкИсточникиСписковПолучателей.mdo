@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2b7d02f-11c0-4999-8bf4-3071feb2b464">
+  <producedTypes>
+    <refType typeId="3d0dd58b-cee8-49f6-82ef-0d887909f9ae" valueTypeId="707ce73c-1be5-459b-af63-d4a7ac69c6a1"/>
+    <listType typeId="063cb69f-5587-434a-9799-de352ff5b9c0" valueTypeId="ec05f2b1-3e91-4f5d-96e4-2b9a57b3c0f1"/>
+    <managerType typeId="0f9dfb15-9a85-466f-83f0-ceb1e08f0a36" valueTypeId="821d2405-ef69-4190-b0a2-37a36fd2006a"/>
+  </producedTypes>
+  <name>рмкИсточникиСписковПолучателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники подписчиков на объект</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6448e412-f0d9-4297-8187-c0621925b795">
+    <name>ПланОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>План обмена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd3b009a-e553-44ae-a3f1-f97b63cda982">
+    <name>ПланОбменаСПравиламиРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>План обмена с правилами регистрации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9dcb014-53d2-4488-b749-ed70d0ed445c">
+    <name>МенеджерКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер конвертации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

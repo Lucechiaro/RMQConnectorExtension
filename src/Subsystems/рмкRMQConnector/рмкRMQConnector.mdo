@@ -43,4 +43,5 @@
   <content>DataProcessor.рмкМенеджерКонвертацииXDTO</content>
   <content>InformationRegister.рмкСтатусыСообщений</content>
   <content>InformationRegister.рмкДокументыКОтложенномуПроведению</content>
+  <content>Enum.рмкИсточникиСписковПолучателей</content>
 </mdclass:Subsystem>

@@ -72,6 +72,7 @@
   <enums>Enum.рмкМенеджерыКонвертации</enums>
   <enums>Enum.рмкСтатусыСообщений</enums>
   <enums>Enum.рмкТипыПередаваемойИнформации</enums>
+  <enums>Enum.рмкИсточникиСписковПолучателей</enums>
   <dataProcessors>DataProcessor.рмкКоннектор</dataProcessors>
   <dataProcessors>DataProcessor.рмкКонсольОтладки</dataProcessors>
   <dataProcessors>DataProcessor.рмкМенеджерКонвертации</dataProcessors>

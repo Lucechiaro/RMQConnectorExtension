@@ -271,16 +271,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ce764c01-d2d8-4710-b74f-0df97241b289">
-    <name>ТипИсточникаСпискаПолучателей</name>
+    <name>ИсточникСпискаПолучателей</name>
     <synonym>
       <key>ru</key>
-      <value>Тип источника списка получателей</value>
+      <value>Источник списка получателей</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>EnumRef.рмкИсточникиСписковПолучателей</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

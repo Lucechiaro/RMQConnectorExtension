@@ -263,6 +263,60 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="8459e1fe-c2c4-4e98-a807-7c04068f77b5">
+    <producedTypes>
+      <objectType typeId="9ad2ff35-120d-4b87-9126-ad1205221b6a" valueTypeId="261bcf8d-4585-4f68-94a6-6cc65eaf32d6"/>
+      <rowType typeId="b7bdb745-7594-431e-bfca-113defee00e3" valueTypeId="be2f7aae-f2a0-4708-914a-820678c56e89"/>
+    </producedTypes>
+    <name>Аргументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аргументы</value>
+    </synonym>
+    <attributes uuid="7dcb6062-aad0-4fde-b02b-000943d82749">
+      <name>Ключ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8c8fab7f-e1df-46f8-b7cb-28329b2b4391">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <types>Date</types>
+        <types>Boolean</types>
+        <types>String</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="71464817-258f-4c62-a480-79953fd32269">
     <name>ItemForm</name>
     <synonym>
