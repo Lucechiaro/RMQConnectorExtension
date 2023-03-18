@@ -348,6 +348,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="afdcf96c-9e9c-43ab-b6ad-61922dd56446">
+    <name>ИмяМетодаСпискаПолучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метода списка получателей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="6e98d72a-1982-40b1-997c-1409651ad567">
     <producedTypes>
       <objectType typeId="ad2fa303-19e7-4710-b2a7-f066765becfb" valueTypeId="de1623a8-4134-41dc-9a3b-19a67ee1f079"/>
