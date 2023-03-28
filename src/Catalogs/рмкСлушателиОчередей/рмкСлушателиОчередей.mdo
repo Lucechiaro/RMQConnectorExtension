@@ -107,6 +107,7 @@
     <key>ru</key>
     <value>Слушатели очередей (queues)</value>
   </listPresentation>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
