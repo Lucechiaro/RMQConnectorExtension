@@ -107,6 +107,7 @@
     <key>ru</key>
     <value>Точки подключения (exchanges)</value>
   </listPresentation>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -119,6 +120,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.рмкТочкиПодключения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.рмкТочкиПодключения.Form.ListForm</defaultListForm>
   <attributes uuid="c94ce38b-089b-44a8-9ce2-c4c5aed5f3c8">
     <name>Сервер</name>
     <synonym>
@@ -271,16 +273,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ce764c01-d2d8-4710-b74f-0df97241b289">
-    <name>ТипИсточникаСпискаПолучателей</name>
+    <name>ИсточникСпискаПолучателей</name>
     <synonym>
       <key>ru</key>
-      <value>Тип источника списка получателей</value>
+      <value>Источник списка получателей</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>EnumRef.рмкИсточникиСписковПолучателей</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -344,6 +343,24 @@
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afdcf96c-9e9c-43ab-b6ad-61922dd56446">
+    <name>ИмяМетодаСпискаПолучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метода списка получателей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -415,6 +432,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма подбора метаданных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a917764e-a85d-4dc3-b40d-d82b0a4d5f9f">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

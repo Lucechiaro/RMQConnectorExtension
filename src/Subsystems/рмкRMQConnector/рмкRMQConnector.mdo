@@ -4,7 +4,6 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:SubsystemExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    <commandInterface>Extended</commandInterface>
     <picture>Extended</picture>
   </extension>
   <picture xsi:type="core:PictureRef">
@@ -43,4 +42,5 @@
   <content>DataProcessor.рмкМенеджерКонвертацииXDTO</content>
   <content>InformationRegister.рмкСтатусыСообщений</content>
   <content>InformationRegister.рмкДокументыКОтложенномуПроведению</content>
+  <content>Enum.рмкИсточникиСписковПолучателей</content>
 </mdclass:Subsystem>
