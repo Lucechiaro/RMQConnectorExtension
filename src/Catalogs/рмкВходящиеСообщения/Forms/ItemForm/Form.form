@@ -503,6 +503,10 @@
         <key></key>
         <value>Страница основные данные</value>
       </title>
+      <title>
+        <key>ru</key>
+        <value>Основные данные</value>
+      </title>
       <toolTip>
         <key></key>
         <value>Страница основные данные</value>
@@ -542,7 +546,7 @@
         <dataPath xsi:type="form:DataPath">
           <segments>СодержимоеСообщения</segments>
         </dataPath>
-        <titleLocation>Top</titleLocation>
+        <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>СодержимоеСообщенияРасширеннаяПодсказка</name>
           <id>24</id>
@@ -569,6 +573,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
+        <readOnly>true</readOnly>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -589,6 +594,10 @@
       <title>
         <key></key>
         <value>Страница содержимое сообщения</value>
+      </title>
+      <title>
+        <key>ru</key>
+        <value>Содержимое сообщения (payload)</value>
       </title>
       <toolTip>
         <key></key>

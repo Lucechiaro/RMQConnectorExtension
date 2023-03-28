@@ -120,6 +120,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.рмкТочкиПодключения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.рмкТочкиПодключения.Form.ListForm</defaultListForm>
   <attributes uuid="c94ce38b-089b-44a8-9ce2-c4c5aed5f3c8">
     <name>Сервер</name>
     <synonym>
@@ -431,6 +432,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма подбора метаданных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a917764e-a85d-4dc3-b40d-d82b0a4d5f9f">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -120,6 +120,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.рмкСлушателиОчередей.Form.ItemForm</defaultObjectForm>
+  <defaultListForm>Catalog.рмкСлушателиОчередей.Form.ListForm</defaultListForm>
   <attributes uuid="da6363b0-d36a-452b-9c9b-46872c365b1f">
     <name>Сервер</name>
     <synonym>
@@ -221,6 +222,15 @@
     <synonym>
       <key>ru</key>
       <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2d1544ef-4b16-4f82-b150-c1ff948cc516">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
